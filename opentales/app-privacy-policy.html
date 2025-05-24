@@ -7,13 +7,25 @@
     <meta name="robots" content="index, follow">
     <title>Polityka prywatności - Open Tales</title>
     <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 </head>
 <body>
+<!-- Background Gradient Elements -->
+<div class="bg-gradient">
+    <div class="bg-blob-1"></div>
+    <div class="bg-blob-2"></div>
+    <div class="bg-blob-3"></div>
+    <div class="bg-dot-1"></div>
+    <div class="bg-dot-2"></div>
+    <div class="bg-dot-3"></div>
+</div>
 <header role="banner">
-    <div>
+    <div class="container">
         <nav role="navigation" aria-label="Nawigacja główna">
-            <div>
-                <a href="index.html" aria-label="Open Tales - Strona główna">Open Tales</a>
+            <div class="logo-link">
+                <a href="index.html" aria-label="Open Tales - Strona główna" class="logo-text">Open Tales</a>
             </div>
             <button id="mobile-menu" aria-label="Toggle navigation menu" aria-expanded="false">
                 <span aria-hidden="true"></span>
@@ -23,8 +35,9 @@
             <ul role="menubar">
                 <li role="none"><a href="index.html#home" role="menuitem">Strona główna</a></li>
                 <li role="none"><a href="index.html#therapeutic" role="menuitem">Audiobajki terapeutyczne</a></li>
-                <li role="none"><a href="index.html#dorotaai" role="menuitem">Dorota AI</a></li>
+                <li role="none"><a href="index.html#series" role="menuitem">Nasze serie</a></li>
                 <li role="none"><a href="index.html#app" role="menuitem">Aplikacja mobilna</a></li>
+                <li role="none"><a href="index.html#dorotaai" role="menuitem">Dorota AI</a></li>
                 <li role="none"><a href="index.html#contact" role="menuitem">Kontakt</a></li>
             </ul>
         </nav>
@@ -32,14 +45,14 @@
 </header>
 
 <main id="main-content">
-    <section aria-labelledby="privacy-heading">
-        <div>
+    <section aria-labelledby="privacy-heading" class="bg-secondary">
+        <div class="container">
             <header>
                 <h1 id="privacy-heading">Polityka prywatności / Privacy Policy</h1>
                 <p>Ostatnia aktualizacja / Last updated: 15 stycznia / January 15, 2025</p>
             </header>
             
-            <div>
+            <div class="section-text">
                 <h2>English</h2>
                 
                 <p>Open Tales website is owned by Open Tales sp. z o.o., which is a data controller of your personal data.</p>
@@ -122,17 +135,64 @@
 </main>
 
 <footer role="contentinfo">
-    <div>
-        <div>
-            <p>&copy; 2025 Open Tales. Wszelkie prawa zastrzeżone.</p>
-            <p>Stworzone z miłością, empatią i szczyptą magii oraz AI w Polsce</p>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo mb-4 md:mb-0">
+                <span class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-ot-bright-purple to-ot-deep-purple">Open Tales</span>
+            </div>
+            <div class="footer-copyright text-center md:text-left">
+                <p>&copy; 2025 Open Tales. Wszelkie prawa zastrzeżone.</p>
+                <p>Stworzone z miłością, empatią i szczyptą magii oraz AI w Polsce</p>
+            </div>
             <nav aria-label="Linki prawne">
-                <a href="privacy-policy.html">Polityka prywatności</a>
-                <a href="terms-and-conditions.html">Regulamin</a>
-                <a href="cookie-policy.html">Polityka cookies</a>
+                <a href="app-privacy-policy.html">Polityka prywatności</a>
+                <a href="app-terms-of-use.html">Regulamin</a>
+                <a href="app-cookies.html">Polityka cookies</a>
             </nav>
         </div>
     </div>
 </footer>
+
+<!-- Mobile Menu JavaScript -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navMenu = document.querySelector('nav ul');
+        const header = document.querySelector('header');
+        
+        // Mobile menu functionality
+        mobileMenu.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+            mobileMenu.setAttribute('aria-expanded', 
+                mobileMenu.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');
+            
+            // Toggle hamburger animation
+            mobileMenu.classList.toggle('open');
+            
+            // Control body scroll when menu is open
+            document.body.classList.toggle('menu-open');
+        });
+        
+        // Close mobile menu when clicking on a link
+        const menuLinks = navMenu.querySelectorAll('a');
+        menuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                mobileMenu.setAttribute('aria-expanded', 'false');
+                mobileMenu.classList.remove('open');
+                document.body.classList.remove('menu-open');
+            });
+        });
+        
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    });
+</script>
 </body>
 </html>

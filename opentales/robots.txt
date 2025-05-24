@@ -1,0 +1,8 @@
+# robots.txt for https://opentales.ai/
+
+User-agent: *
+Allow: /
+Disallow: /images/
+
+# Sitemap
+Sitemap: https://opentales.ai/sitemap.xml
