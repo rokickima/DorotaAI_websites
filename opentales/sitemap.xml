@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://opentales.ai/</loc>
-    <lastmod>2025-06-13</lastmod>
+    <lastmod>2025-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://opentales.ai/index.html</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://opentales.ai/spokojne-zasypianie/index.html</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://opentales.ai/spokojne-zasypianie/ankieta-wyniki.html</loc>
-    <lastmod>2025-06-13</lastmod>
+    <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://opentales.ai/app-privacy-policy.html</loc>
-    <lastmod>2025-06-13</lastmod>
+    <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://opentales.ai/app-terms-of-use.html</loc>
-    <lastmod>2025-06-13</lastmod>
+    <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://opentales.ai/app-cookies.html</loc>
-    <lastmod>2025-06-13</lastmod>
+    <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
