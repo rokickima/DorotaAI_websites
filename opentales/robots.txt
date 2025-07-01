@@ -1,8 +1,23 @@
-# robots.txt for https://opentales.ai/
+# AI Search Bots - Allowed for searching and answering queries
+User-agent: OAI-SearchBot
+Allow: /
 
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: AndiBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# General crawlers - Allowed
 User-agent: *
 Allow: /
-Disallow: /images/
+Crawl-delay: 1
 
 # Sitemap
 Sitemap: https://opentales.ai/sitemap.xml

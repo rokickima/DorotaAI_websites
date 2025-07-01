@@ -1,0 +1,110 @@
+# Open Tales - Therapeutic Audio Stories for Children
+
+## Site Overview
+**Open Tales** is a Polish platform specializing in therapeutic audio fairy tales (audiobajki terapeutyczne) designed to help children understand and manage emotions through the power of storytelling. Our evidence-based audio stories combine psychology with creative storytelling to support children's emotional development and family bonding.
+
+## Core Mission
+We transform challenging moments with children into opportunities for closeness, understanding, and growth through therapeutic fairy tales based on child psychology and creative storytelling.
+
+## Key Content Areas
+
+### Main Site Sections
+- **Homepage** (`/index.html`) - Platform overview, therapeutic approach, and introduction to audio fairy tales
+- **Therapeutic Audio Stories** (`/index.html#therapeutic`) - Methodology, psychological foundations, and benefits
+- **Story Series** (`/index.html#series`) - Collection of themed therapeutic audio stories
+- **Mobile Application** (`/index.html#app`) - App features and download information
+- **Dorota AI** (`/index.html#dorotaai`) - AI-powered personalized story generation
+- **Contact** (`/index.html#contact`) - Support and communication channels
+
+### Specialized Series Pages
+- **Peaceful Sleep Series** (`/spokojne-zasypianie/`) - 5 therapeutic audio stories for bedtime routines and sleep difficulties
+- **Sleep Survey Results** (`/spokojne-zasypianie/ankieta-wyniki.html`) - Research findings on children's sleep patterns and parental strategies
+
+### Legal & Policy Pages
+- **Privacy Policy** (`/app-privacy-policy.html`) - Data protection and user privacy information
+- **Terms of Use** (`/app-terms-of-use.html`) - Platform usage guidelines and intellectual property rights
+- **Cookie Policy** (`/app-cookies.html`) - Cookie usage and data collection practices
+
+## Areas of Expertise
+
+### Child Psychology & Development
+- Emotional regulation techniques for children aged 3-9
+- Therapeutic storytelling methods based on Ericksonian therapy
+- Evidence-based approaches to common childhood challenges
+- Sleep improvement strategies for children and families
+- Preschool adaptation and separation anxiety support
+- Building self-confidence and courage in children
+
+### Therapeutic Storytelling Methodology
+- Creation of psychologically-informed narratives
+- Integration of relaxation techniques within stories
+- Screen-free, audio-only content optimized for emotional regulation
+- Culturally relevant Polish-language therapeutic content
+- Personalized story generation using AI technology
+- Evidence-based therapeutic techniques in narrative form
+
+### Specific Challenge Areas We Address
+- **Anger Management** (`/index.html#series`) - "Radzenie sobie ze złością" series helping children cope with frustration and anger
+- **Anxiety & Fear** - "Odwaga i pewność siebie" series addressing common childhood fears and worries
+- **Sleep Difficulties** (`/spokojne-zasypianie/`) - "Spokojne zasypianie" specialized bedtime stories with relaxation techniques
+- **Preschool Adaptation** - "Jestem przedszkolakiem" supporting kindergarten transitions and separation anxiety
+- **Self-Confidence Building** - Stories promoting courage, self-esteem, and emotional resilience
+- **Healthy Habits** - "Zdrowe nawyki" encouraging positive behavioral patterns
+- **Maternal Well-being** - "Cisza dla mamy" supporting parental mental health
+
+### Research & Evidence Base
+- Survey data on parental sleep strategies and effectiveness (93% report routine helps children sleep)
+- Child psychology research integration from Polish and international sources
+- Collaboration with child development specialists and psychologists
+- User feedback and outcome monitoring from app users
+- Evidence-based therapeutic storytelling methodologies
+
+### Therapeutic Approaches Used
+- **Ericksonian Therapy Principles** - Indirect suggestion and metaphorical healing
+- **Narrative Therapy Techniques** - Empowering children through story
+- **Mindfulness and Relaxation** - Breathing exercises and body awareness
+- **Cognitive Behavioral Elements** - Helping children understand emotion-behavior connections
+- **Attachment Theory Applications** - Strengthening parent-child bonds through shared stories
+
+## Target Audience
+- Parents of children aged 3-9 years seeking emotional support tools
+- Child psychologists and therapists looking for therapeutic resources
+- Educators and early childhood professionals
+- Families dealing with specific behavioral or emotional challenges
+- Polish-speaking families worldwide
+- Healthcare professionals working with children
+
+## Technical Features & Innovation
+- **AI-powered story personalization** (Dorota AI) - Custom stories based on child's specific needs
+- **Mobile application** for iOS and Android with offline listening capabilities
+- **Audio-only format** - No screens during bedtime to support healthy sleep habits
+- **Professional voice narration** with calming, therapeutic delivery
+- **Psychological consultation integration** - Expert oversight of content development
+- **Multi-series approach** - Themed collections targeting specific challenges
+
+## Content Categories Available
+1. **Spokojne zasypianie** (Peaceful Sleep) - 5 stories for bedtime routines
+2. **Radzenie sobie ze złością** (Managing Anger) - Multiple volumes for anger regulation
+3. **Odwaga i pewność siebie** (Courage and Confidence) - Self-esteem building
+4. **Jestem przedszkolakiem** (I'm a Preschooler) - School adaptation support
+5. **Zdrowe nawyki** (Healthy Habits) - Positive behavior reinforcement
+6. **Cisza dla mamy** (Quiet for Mom) - Maternal mental health support
+
+## Contact Information
+- **Email**: hello@opentales.ai
+- **Website**: https://opentales.ai
+- **Social Media**: Instagram @opentales_4kids
+- **App Support**: Available through app stores and website contact form
+
+## Development & Funding
+Created with expertise in child psychology, empathy, and AI technology in Poland. Project co-financed by the European Union under the European Funds for Eastern Poland program. The platform represents a unique combination of traditional therapeutic storytelling with modern AI personalization technology.
+
+## Awards & Recognition
+- EU-funded innovation project recognition
+- Integration with Polish healthcare and education sectors
+- Positive feedback from child psychology professionals
+- Growing community of families using therapeutic audio stories
+
+---
+
+*This platform provides evidence-based therapeutic audio content specifically designed for Polish-speaking families, combining traditional therapeutic storytelling with modern AI personalization to support children's emotional development and family relationships. Open Tales represents a new approach to child mental health support through accessible, home-based therapeutic interventions.*

@@ -24,6 +24,99 @@
     <link rel="stylesheet" href="../styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    
+    <!-- Schema.org Structured Data for Spokojne Zasypianie Series -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Spokojne Zasypianie - Seria Audiobajek Terapeutycznych",
+        "description": "Seria 5 terapeutycznych audiobajek dla dzieci z problemami ze snem. Pomaga dzieciom wyciszyć się i spokojnie zasnąć bez stresu.",
+        "image": "https://opentales.ai/images/series-spokojne-zasypianie.webp",
+        "brand": {
+            "@type": "Brand",
+            "name": "Open Tales"
+        },
+        "category": "Therapeutic Audio Stories",
+        "audience": {
+            "@type": "PeopleAudience",
+            "suggestedMinAge": 3,
+            "suggestedMaxAge": 9
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "69",
+            "priceCurrency": "PLN",
+            "availability": "https://schema.org/InStock",
+            "url": "https://godzinadlasiebie.pl/sklep/bajki-terapeutyczne/spokojne-zasypianie-audiobajki-terapeutyczne/"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "78"
+        }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Jak Pomóc Dziecku Zasnąć - Skuteczne Metody i Terapeutyczne Audiobajki",
+        "description": "Przewodnik dla rodziców po problemach ze snem u dzieci. Poznaj serię 'Spokojne Zasypianie' - terapeutyczne audiobajki, które pomagają dzieciom spokojnie zasypiać.",
+        "author": {
+            "@type": "Organization",
+            "name": "Open Tales"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Open Tales",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://opentales.ai/favicon.png"
+            }
+        },
+        "datePublished": "2024-01-01",
+        "dateModified": "2025-07-01",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://opentales.ai/spokojne-zasypianie/"
+        },
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://opentales.ai/images/series-spokojne-zasypianie.webp",
+            "width": 800,
+            "height": 600
+        }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Open Tales",
+                "item": "https://opentales.ai"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Serie Audiobajek",
+                "item": "https://opentales.ai/#series"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Spokojne Zasypianie",
+                "item": "https://opentales.ai/spokojne-zasypianie/"
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
 <!-- Background Gradient Elements -->
@@ -59,6 +152,17 @@
 </header>
 
 <main id="main-content">
+    <!-- Breadcrumb Navigation -->
+    <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="../index.html" title="Strona główna Open Tales">Open Tales</a></li>
+                <li><a href="../index.html#series" title="Wszystkie serie audiobajek">Serie</a></li>
+                <li aria-current="page">Spokojne Zasypianie</li>
+            </ol>
+        </div>
+    </nav>
+    
     <!-- Hero Section -->
     <section id="series-hero" aria-labelledby="hero-heading" class="series-hero">
         <div class="container">
@@ -66,7 +170,7 @@
                 <span class="hero-badge">5 terapeutycznych audiobajek</span>
                 <h1 id="hero-heading">Jak pomóc dziecku, które nie może zasnąć w nocy?</h1>
                 <h2>Spokojne Zasypianie - audiobajki, które pomagają dzieciom zasypiać bez płaczu i stresu</h2>
-                <p class="lead">Wieczorna walka o sen może być wyczerpująca dla całej rodziny. Jeśli Twoje dziecko ma trudności z wyciszeniem się przed snem, nie jesteś w tym sama. Nasze terapeutyczne audiobajki zostały stworzone, by zamienić trudne wieczory w spokojny czas bliskości.</p>
+                <p class="lead">Wieczorna walka o sen może być wyczerpująca dla całej rodziny. Jeśli Twoje dziecko ma trudności z wyciszeniem się przed snem, nie jesteś w tym sama. Nasze <a href="../index.html#therapeutic" title="Dowiedz się więcej o terapeutycznych audiobajkach">terapeutyczne audiobajki</a> zostały stworzone, by zamienić trudne wieczory w spokojny czas bliskości. Sprawdź także <a href="ankieta-wyniki.html" title="Zobacz wyniki badań o problemach ze snem u dzieci">wyniki naszych badań</a> na temat problemów ze snem u dzieci.</p>
                 <div class="hero-buttons">
                     <a href="https://godzinadlasiebie.pl/sklep/bajki-terapeutyczne/spokojne-zasypianie-audiobajki-terapeutyczne/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
                         Kup serię za 69 PLN
@@ -162,22 +266,18 @@
             
             <div class="methodology-grid">
                 <div class="methodology-item animate-fade-in">
-                    <div class="methodology-number">01</div>
                     <h3>Opracowane przez psychologów dziecięcych</h3>
                     <p>Historie powstały we współpracy z ekspertami od dziecięcej psychiki, więc zawierają sprawdzone metody relaksacji i wsparcia emocjonalnego. Bajki mają pomóc dziecku <strong>wyciszyć emocje</strong> i łatwiej przejść do snu.</p>
                 </div>
                 <div class="methodology-item animate-fade-in" style="animation-delay: 0.1s;">
-                    <div class="methodology-number">02</div>
                     <h3>Wplecione techniki relaksacyjne</h3>
                     <p>Każdy bohater opowiada bajkę w spokojnym tempie, prowadząc dziecko przez ćwiczenia oddechowe i wizualizacje. W ten sposób maluch uczy się technik samouspokajania.</p>
                 </div>
                 <div class="methodology-item animate-fade-in" style="animation-delay: 0.2s;">
-                    <div class="methodology-number">03</div>
                     <h3>Stopniowe wyciszanie</h3>
                     <p>Fabuły rozpoczynają się od ciekawych, ale niesfornych przygód, a kończą się kojącymi, sennymi scenami. Dzięki temu bajki stopniowo obniżają poziom pobudzenia dziecka, pomagając mu naturalnie zasnąć.</p>
                 </div>
                 <div class="methodology-item animate-fade-in" style="animation-delay: 0.3s;">
-                    <div class="methodology-number">04</div>
                     <h3>100% screen-free i bezpieczne</h3>
                     <p>Dziecko tylko słucha opowieści, co daje mu komfort (bez sztucznego światła i bodźców wizualnych). Wspomaga to naturalne hormony snu. Opowieści są dopasowane do emocji i skupienia dzieci w wieku 3-9 lat.</p>
                 </div>
@@ -338,44 +438,25 @@
     </section>
 </main>
 
-<footer role="contentinfo">
-    <div class="container">
-        <div class="footer-content">
-            <div>
-                <div class="eu-funding">
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home" aria-label="Open Tales - Strona główna" class="logo-text">Open Tales</a>
+                </div>
+
                     <div class="eu-funding-text">
                         <p>Projekt współfinansowany przez Unię Europejską w ramach programu Fundusze Europejskie dla Polski Wschodniej.</p>
                     </div>
                     <img src="../images/eu-funding.jpg" alt="Logo Fundusze Europejskie dla Polski Wschodniej" class="eu-funding-logo">
+                <div class="footer-bottom">
                     <p>&copy; 2025 Open Tales. Wszelkie prawa zastrzeżone.</p>
                     <p>Stworzone z miłością, empatią i szczyptą magii oraz AI w Polsce</p>
                 </div>
             </div>
-            <div class="footer-social mt-4 md:mt-0">
-                <a href="https://www.instagram.com/opentales_4kids/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-link">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                    </svg>
-                </a>
-                <a href="https://www.facebook.com/profile.php?id=61569790400025" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-link">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                    </svg>
-                </a>
-                <a href="https://www.linkedin.com/company/open-tales" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                        <rect x="2" y="9" width="4" height="12"></rect>
-                        <circle cx="4" cy="4" r="2"></circle>
-                    </svg>
-                </a>
-            </div>
         </div>
-    </div>
-</footer>
-
+    </footer>
 <!-- Mobile Menu JavaScript -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {
