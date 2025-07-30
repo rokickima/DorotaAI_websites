@@ -38,6 +38,7 @@ Within the app, Open Tales provides several themed story collections (or "packag
 
 - **"Zdrowe nawyki"** – Stories that help children understand the importance of limiting screen time for their well-being, teaching them to recognize when their body and mind need breaks from screens and offering creative alternatives to watching cartoons.
   ![Zdrowe nawyki](https://backend.opentales.ai/v1/client/series/6f2465cc-09fe-4c2c-a6ef-dd1b4ef9661e/image?etag=2508cb9d38de10966b38a6dfd98cfaeb)
+  [Landing Page](https://poznaj.godzinadlasiebie.pl/elf-nikos-app/darmowa)
 
 - **"Jak opanować nerwy?"** – A collection of 5 therapeutic audio stories created for nervous and impulsive children who need support managing strong feelings. Each story contains techniques to help with tension, anger, and frustration, teaching children to respond thoughtfully and express emotions safely.
   ![Jak opanować nerwy?](https://backend.opentales.ai/v1/client/series/24a3b2d5-26d6-4c02-a91c-bb927129af1d/image?etag=0055e7f867babb58cde23e0bf55eb83c)
@@ -150,6 +151,7 @@ Wonderful, valuable audio stories created for nervous, impulsive children who ne
 
 ### Zdrowe nawyki
 ![Zdrowe nawyki](https://backend.opentales.ai/v1/client/series/6f2465cc-09fe-4c2c-a6ef-dd1b4ef9661e/image?etag=2508cb9d38de10966b38a6dfd98cfaeb)
+[Landing Page](https://poznaj.godzinadlasiebie.pl/elf-nikos-app/darmowa)
 
 Stories helping children understand the value of healthy habits and a balanced lifestyle.
 
