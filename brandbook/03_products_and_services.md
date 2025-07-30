@@ -50,6 +50,10 @@ Within the app, Open Tales provides several themed story collections (or "packag
 - **"Cisza dla Mamy"** – A special program designed to help mothers create more space in family life and care for their psychological regeneration through relaxation audio recordings over a 10-day program, helping mothers find inner peace and quiet.
   ![Cisza dla Mamy](https://backend.opentales.ai/v1/client/series/9d60cb31-f750-4fa4-8bae-22d910d0ebd7/image?etag=c982edc762b2b5d85027193ceaf7c189)
 
+- **"Cierpliwa mama – ćwiczenie opanowania"** – A comprehensive support program for mothers who want to respond more calmly to challenging parenting situations. This collection of 10 short therapeutic audio sessions contains specific psychological techniques to help mothers stop before they yell, control anger impulses, regain self-control, and build new supportive response patterns. Perfect for mothers who feel anger taking control, want to stop yelling or harsh reactions, and dream of responding calmly even in difficult moments.
+  ![Cierpliwa mama – ćwiczenie opanowania](https://backend.opentales.ai/v1/client/externalcontent/6cf6030c-c663-463d-a2fc-bc9c82340a30/image?etag=6c42cd786845f7010f9fae554175a2cb)
+  [Landing Page](https://godzinadlasiebie.pl/sklep/bajki-terapeutyczne/cierpliwa-mama-cwiczenie-opanowania-email/)
+
 Each package is like a toolkit on that topic: stories within a pack progress or complement each other, and often include recurring characters or settings for familiarity. Parents can choose to follow a pack over multiple nights (e.g., one story each evening) to reinforce the lessons. All stories are available as audio (for listening) and PDF text (for reading), giving flexibility in how families use them.
 
 ## 3. Personalized Story Creation (AI-Assisted)
@@ -168,3 +172,31 @@ It's great that you've decided to do something good for yourself—to create mor
 8. "Stopping" - Learning the value of stopping and resting in a busy world
 9. "Space" - Helping create mental space for yourself and your needs
 10. "I See You" - Developing the ability to see the needs of yourself and others in a mindful, open way
+
+### Cierpliwa mama – ćwiczenie opanowania
+![Cierpliwa mama – ćwiczenie opanowania](https://backend.opentales.ai/v1/client/externalcontent/6cf6030c-c663-463d-a2fc-bc9c82340a30/image?etag=6c42cd786845f7010f9fae554175a2cb)
+[Landing Page](https://godzinadlasiebie.pl/sklep/bajki-terapeutyczne/cierpliwa-mama-cwiczenie-opanowania-email/)
+
+Support for mothers who want to respond more calmly to challenging parenting situations. You know perfectly well how important it is to communicate with your child with calm and respect. You read guides, listen to podcasts, and understand perfectly what to do when a child gets angry, screams, hits, or has a tantrum... But in emotional moments... that knowledge disappears. Because in difficult moments, old patterns and automatic reactions take over.
+
+That's why we need something more than theory. We need to practice new, calm reactions at a deeper, emotional level.
+
+**"Cierpliwa mama" is a series of 10 short therapeutic audio sessions containing specific psychological techniques that will help you:**
+✨ Stop before you yell
+✨ Stop the wave of anger
+✨ Regain self-control over your reactions
+✨ React less impulsively, more consciously
+✨ Gain emotional distance in difficult moments
+✨ Calm your body and emotions
+✨ Build new, supportive patterns
+
+This is daily, short, but very effective training of skills that are worth their weight in gold for every parent!
+
+**For mothers who:**
+💛 Feel that anger takes control over them
+💛 Want to stop yelling, punishing, saying hurtful words
+💛 Dream of reacting more calmly, even when it's difficult
+💛 Want to break out of old patterns and create relationships based on respect
+💛 Want to be the kind of mother they once needed themselves
+
+You can learn a new way of reacting and instead of destroying your relationships, build a secure bond.

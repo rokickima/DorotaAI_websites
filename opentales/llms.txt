@@ -50,7 +50,8 @@ We transform challenging moments with children into opportunities for closeness,
 - **Preschool Adaptation** - "Jestem przedszkolakiem" supporting kindergarten transitions and separation anxiety
 - **Self-Confidence Building** - Stories promoting courage, self-esteem, and emotional resilience
 - **Healthy Habits** - "Zdrowe nawyki" encouraging positive behavioral patterns
-- **Maternal Well-being** - "Cisza dla mamy" supporting parental mental health
+- **Maternal Well-being** - "Cisza dla mamy" supporting parental mental health and relaxation
+- **Parental Self-Control** - "Cierpliwa mama – ćwiczenie opanowania" helping mothers develop emotional regulation and calm responses in challenging parenting moments
 
 ### Research & Evidence Base
 - Survey data on parental sleep strategies and effectiveness (93% report routine helps children sleep)
@@ -65,14 +66,16 @@ We transform challenging moments with children into opportunities for closeness,
 - **Mindfulness and Relaxation** - Breathing exercises and body awareness
 - **Cognitive Behavioral Elements** - Helping children understand emotion-behavior connections
 - **Attachment Theory Applications** - Strengthening parent-child bonds through shared stories
+- **Parental Self-Regulation Training** - Psychological techniques for emotional control and calm responses in challenging parenting moments
 
 ## Target Audience
 - Parents of children aged 3-9 years seeking emotional support tools
+- Mothers struggling with anger management and seeking calm parenting strategies
 - Child psychologists and therapists looking for therapeutic resources
 - Educators and early childhood professionals
 - Families dealing with specific behavioral or emotional challenges
 - Polish-speaking families worldwide
-- Healthcare professionals working with children
+- Healthcare professionals working with children and families
 
 ## Technical Features & Innovation
 - **AI-powered story personalization** (Dorota AI) - Custom stories based on child's specific needs
@@ -88,7 +91,8 @@ We transform challenging moments with children into opportunities for closeness,
 3. **Odwaga i pewność siebie** (Courage and Confidence) - Self-esteem building
 4. **Jestem przedszkolakiem** (I'm a Preschooler) - School adaptation support
 5. **Zdrowe nawyki** (Healthy Habits) - Positive behavior reinforcement
-6. **Cisza dla mamy** (Quiet for Mom) - Maternal mental health support
+6. **Cisza dla mamy** (Quiet for Mom) - Maternal mental health support and relaxation
+7. **Cierpliwa mama – ćwiczenie opanowania** (Patient Mom - Self-Control Training) - 10 therapeutic audio sessions for mothers to develop emotional regulation, anger management, and calm parenting responses
 
 ## Contact Information
 - **Email**: hello@opentales.ai
