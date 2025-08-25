@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Seria terapeutycznych audiobajek 'Radzenie sobie ze złością' Open Tales. Pomóż dziecku nauczyć się kontrolować złość i agresję dzięki opowieściom z psychologicznym podłożem.">
+    <meta name="keywords" content="bajki na złość, radzenie sobie ze złością, audiobajki terapeutyczne, kontrola gniewu dzieci, agresja u dzieci, terapia przez bajki, emocje dziecka, samokontrola, bajki psychologiczne">
+    <meta name="author" content="Open Tales">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Radzenie sobie ze złością - Terapeutyczne Audiobajki Open Tales">
+    <meta property="og:description" content="Pomóż dziecku opanować złość i nauczyć się samokontroli dzięki 10 terapeutycznym audiobajkom. Poznaj Syrenkę Zuzę, kameleona Kolorka i innych bohaterów, którzy uczą oswajania trudnych emocji.">
+    <meta property="og:image" content="https://opentales.ai/images/series-radzenie-sobie-ze-zloscia.webp">
+    <meta property="og:url" content="https://opentales.ai/landingpages/zlosc/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Open Tales">
+    <meta property="og:locale" content="pl_PL">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Radzenie sobie ze złością - Terapeutyczne Audiobajki Open Tales">
+    <meta name="twitter:description" content="Pomóż dziecku opanować złość i nauczyć się samokontroli dzięki 10 terapeutycznym audiobajkom.">
+    <meta name="twitter:image" content="https://opentales.ai/images/series-radzenie-sobie-ze-zloscia.webp">
+    
+    <title>Radzenie sobie ze złością - Audiobajki Open Tales | Kontrola gniewu dla dzieci</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    
+    <!-- Preload Fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* OpenTales CSS Styles - Inline Version */
+        :root {
+            --ot-bright-purple: #A462FD; 
+            --ot-deep-purple: #5A19BF;
+            --ot-magenta: #D60066;
+            --ot-wine-plum: #7F0445;
+            --ot-yellow: #F1C12B;
+            --ot-sky-blue: #557DBD;
+            --ot-lavender-light: #DCDAFF;
+            
+            --background: 0 0% 100%;
+            --foreground: 280 80% 12%;
+            --primary: 270 91% 35%;
+            --primary-foreground: 0 0% 98%;
+            --secondary: 268 100% 98%;
+            --secondary-foreground: 270 91% 35%;
+            --accent: 267 98% 52%;
+            --radius: 1rem;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+            scroll-padding-top: 80px;
+            overflow-x: hidden;
+            max-width: 100vw;
+        }
+
+        body {
+            font-family: 'Baloo 2', sans-serif;
+            background-color: #FBFAF9;
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+            max-width: 100vw;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Background Elements */
+        .bg-gradient {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .bg-blob-1 {
+            position: absolute;
+            top: -10%;
+            left: -10%;
+            width: min(64rem, 100vw);
+            height: min(64rem, 100vw);
+            background-color: rgba(164, 98, 253, 0.08);
+            border-radius: 50%;
+            filter: blur(4rem);
+            z-index: -1;
+            animation: float 60s ease-in-out infinite;
+        }
+
+        .bg-blob-2 {
+            position: absolute;
+            bottom: -20%;
+            right: -10%;
+            width: min(96rem, 120vw);
+            height: min(96rem, 120vw);
+            background-color: rgba(214, 0, 102, 0.06);
+            border-radius: 50%;
+            filter: blur(4rem);
+            z-index: -1;
+            animation: float 80s ease-in-out infinite reverse;
+        }
+
+        .bg-blob-3 {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: min(80rem, 100vw);
+            height: min(80rem, 100vw);
+            background-color: rgba(241, 193, 43, 0.04);
+            border-radius: 50%;
+            filter: blur(4rem);
+            z-index: -1;
+            animation: float 70s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); }
+            33% { transform: translate(30px, -30px) rotate(120deg); }
+            66% { transform: translate(-20px, 20px) rotate(240deg); }
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(251, 250, 249, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(164, 98, 253, 0.1);
+            z-index: 1000;
+            padding: 1rem 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-text {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--ot-deep-purple);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .logo-text:hover {
+            color: var(--ot-bright-purple);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--ot-bright-purple);
+        }
+
+        /* Mobile Navigation */
+        .mobile-menu {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .mobile-menu span {
+            width: 25px;
+            height: 3px;
+            background-color: var(--ot-deep-purple);
+            transition: 0.3s;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            .mobile-menu {
+                display: flex;
+            }
+        }
+
+        /* Main Content */
+        main {
+            margin-top: 80px;
+            padding: 2rem 0;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 4rem 0 6rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 800;
+            color: var(--ot-deep-purple);
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .hero h2 {
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
+            font-weight: 600;
+            color: var(--ot-magenta);
+            margin-bottom: 2rem;
+            line-height: 1.3;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto 2.5rem;
+            line-height: 1.7;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--ot-bright-purple), var(--ot-magenta));
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 2rem;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 20px rgba(164, 98, 253, 0.3);
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            border-radius: 2rem;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            margin: 0.5rem;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--ot-bright-purple), var(--ot-magenta));
+            color: white;
+            box-shadow: 0 4px 20px rgba(164, 98, 253, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(164, 98, 253, 0.4);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--ot-deep-purple);
+            border: 2px solid var(--ot-bright-purple);
+        }
+
+        .btn-secondary:hover {
+            background: var(--ot-bright-purple);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        /* Sections */
+        section {
+            padding: 4rem 0;
+        }
+
+        .bg-secondary {
+            background-color: rgba(220, 218, 255, 0.3);
+        }
+
+        section h2 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 700;
+            color: var(--ot-deep-purple);
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        section h3 {
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            font-weight: 600;
+            color: var(--ot-deep-purple);
+            margin-bottom: 1rem;
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 1.5rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(164, 98, 253, 0.2);
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--ot-bright-purple), var(--ot-magenta));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .feature-icon svg {
+            width: 30px;
+            height: 30px;
+            color: white;
+        }
+
+        /* Stories Section */
+        .stories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .story-card {
+            background: white;
+            border-radius: 1.5rem;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .story-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .story-content {
+            padding: 2rem;
+        }
+
+        .story-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--ot-deep-purple);
+            margin-bottom: 1rem;
+        }
+
+        .story-description {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* Benefits Section */
+        .benefits-list {
+            list-style: none;
+            margin: 2rem 0;
+        }
+
+        .benefits-list li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .benefits-list li::before {
+            content: "✓";
+            color: var(--ot-bright-purple);
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-right: 1rem;
+            margin-top: 2px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--ot-bright-purple), var(--ot-magenta));
+            color: white;
+            text-align: center;
+            padding: 4rem 0;
+            border-radius: 2rem;
+            margin: 4rem 0;
+        }
+
+        .cta-section h2 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .price-highlight {
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 1rem 0;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .testimonial {
+            background: white;
+            padding: 2rem;
+            border-radius: 1.5rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .testimonial::before {
+            content: '"';
+            font-size: 4rem;
+            color: var(--ot-bright-purple);
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            line-height: 1;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 1rem;
+            color: #666;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--ot-deep-purple);
+        }
+
+        /* FAQ Section */
+        .faq-item {
+            background: white;
+            border-radius: 1rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .faq-question {
+            padding: 1.5rem;
+            cursor: pointer;
+            font-weight: 600;
+            color: var(--ot-deep-purple);
+            border: none;
+            background: none;
+            width: 100%;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem 1.5rem;
+            color: #666;
+            display: none;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--ot-deep-purple);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 4rem;
+        }
+
+        /* Animations */
+        .animate-fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 0.6s ease forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 15px;
+            }
+            
+            .hero {
+                padding: 2rem 0 4rem;
+            }
+            
+            .features-grid,
+            .stories-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .btn {
+                display: block;
+                margin: 1rem auto;
+                max-width: 300px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero h2 {
+                font-size: 1.2rem;
+            }
+            
+            section {
+                padding: 2rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Gradient Elements -->
+    <div class="bg-gradient">
+        <div class="bg-blob-1"></div>
+        <div class="bg-blob-2"></div>
+        <div class="bg-blob-3"></div>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="/" class="logo-text">Open Tales</a>
+                <ul class="nav-links">
+                    <li><a href="/">Strona główna</a></li>
+                    <li><a href="/#series">Nasze serie</a></li>
+                    <li><a href="/#app">Aplikacja</a></li>
+                    <li><a href="/#contact">Kontakt</a></li>
+                </ul>
+                <button class="mobile-menu" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="animate-fade-in">
+                    <span class="hero-badge">Seria terapeutyczna</span>
+                    <h1>Radzenie sobie ze złością</h1>
+                    <h2>10 audiobajek, które uczą dzieci kontrolować gniew i odkrywać spokój</h2>
+                    <p>Poznaj kolekcję terapeutycznych opowieści dla dzieci w wieku 3-10 lat, które zmagają się z agresją, impulsywnością czy trudnościami z samokontrolą. Każda bajka zawiera sprawdzone techniki psychologiczne, które pomagają dzieciom radzić sobie z napięciem, złością i trudnymi uczuciami.</p>
+                    <div>
+                        <a href="https://godzinadlasiebie.pl/sklep/bajki-terapeutyczne/bajki-terapeutyczne-radzenie-sobie-ze-zloscia/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            Kup serię za 99 PLN
+                        </a>
+                        <a href="#stories" class="btn btn-secondary">
+                            Zobacz bajki w serii
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Section -->
+        <section class="bg-secondary">
+            <div class="container">
+                <h2>Czy Twoje dziecko ma problemy z kontrolą złości?</h2>
+                <div class="features-grid">
+                    <div class="feature-card animate-fade-in">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 12l2 2 4-4"/>
+                                <circle cx="12" cy="12" r="10"/>
+                            </svg>
+                        </div>
+                        <h3>Napady złości i agresji</h3>
+                        <p>Twoje dziecko wybuchą gniewem, krzyczy, rzuca przedmiotami lub reaguje agresywnie w trudnych sytuacjach.</p>
+                    </div>
+                    <div class="feature-card animate-fade-in">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 12l2 2 4-4"/>
+                                <circle cx="12" cy="12" r="10"/>
+                            </svg>
+                        </div>
+                        <h3>Impulsywność</h3>
+                        <p>Dziecko reaguje bez zastanowienia, ma trudności z opanowaniem pierwszego impulsu i często żałuje swoich reakcji.</p>
+                    </div>
+                    <div class="feature-card animate-fade-in">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 12l2 2 4-4"/>
+                                <circle cx="12" cy="12" r="10"/>
+                            </svg>
+                        </div>
+                        <h3>Trudności z komunikacją</h3>
+                        <p>Dziecko ma problem z wyrażaniem frustracji słowami i często ucieka się do zachowań problemowych.</p>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <p style="font-size: 1.2rem; color: #666; max-width: 600px; margin: 0 auto;">
+                        <strong>Nie jesteście sami!</strong> Nasze terapeutyczne audiobajki pomogły już tysiącom rodzin w Polsce nauczyć dzieci zdrowego radzenia sobie z emocjami.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stories Section -->
+        <section id="stories">
+            <div class="container">
+                <h2>Poznaj bohaterów, którzy uczą opanowania</h2>
+                <p style="text-align: center; font-size: 1.1rem; color: #666; margin-bottom: 3rem; max-width: 800px; margin-left: auto; margin-right: auto;">
+                    Każda z 10 bajek w serii przedstawia innego bohatera, który mierzy się z trudnymi emocjami i znajduje skuteczne sposoby na ich opanowanie. Dzieci uczą się przez identyfikację z postaciami i naśladowanie ich strategii.
+                </p>
+                
+                <div class="stories-grid">
+                    <div class="story-card animate-fade-in">
+                        <div class="story-content">
+                            <h3 class="story-title">🧜‍♀️ Syrenka Zuza</h3>
+                            <p class="story-description">Historia o syrence, która uczy się kontrolować swoją frustrację. Zuza odkrywa magiczną technikę głębokiego oddychania i uspokajania myśli, gdy czuje, że złość ją przytłacza.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="story-card animate-fade-in">
+                        <div class="story-content">
+                            <h3 class="story-title">🦎 Kameleon Kolorek</h3>
+                            <p class="story-description">Bajka o chameleonie, który zmienia kolory wraz z emocjami. Kolorek uczę się rozpoznawać swoje uczucia i znajduje sposoby na powrót do spokojnego, zielonego koloru.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="story-card animate-fade-in">
+                        <div class="story-content">
+                            <h3 class="story-title">🚗 Magiczny hamulec</h3>
+                            <p class="story-description">Opowieść o dziewczynce, która uczy się używać "magicznego hamulca" do kontrolowania impulsywności. Poznaje technikę zatrzymania się przed reakcją i przemyślenia swoich działań.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="story-card animate-fade-in">
+                        <div class="story-content">
+                            <h3 class="story-title">👑 Alicja i tajemnicze lustro</h3>
+                            <p class="story-description">Księżniczka Alicja odkrywa magiczne lustro, które odbija jej emocje. Uczy się patrzeć na swoje uczucia z dystansem i znajdować w sobie siłę do spokoju.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="story-card animate-fade-in">
+                        <div class="story-content">
+                            <h3 class="story-title">🐕 Szczeniak Max</h3>
+                            <p class="story-description">Historia szczeniaka, który uczy się uspokajać swoje myśli i skutecznie komunikować. Max odkrywa, że słowa są potężniejsze niż agresywne zachowania.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="story-card animate-fade-in">
+                        <div class="story-content">
+                            <h3 class="story-title">🏴‍☠️ Kapitan Jacek</h3>
+                            <p class="story-description">Przygoda pirata, który uczy się budować przyjazne relacje zamiast konfliktów. Kapitan Jacek pokazuje, jak złość można przekształcić w siłę do pomocy innym.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="bg-secondary">
+            <div class="container">
+                <h2>Jak audiobajki pomagają dziecku?</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; margin-top: 3rem;">
+                    <div>
+                        <h3>🧠 Oparte na psychologii dziecięcej</h3>
+                        <ul class="benefits-list">
+                            <li>Wykorzystują sprawdzone techniki terapii ericksonowskiej</li>
+                            <li>Stworzone we współpracy z psychologiem dziecięcym</li>
+                            <li>Bezpieczne emocjonalnie dla dziecka</li>
+                            <li>Dostosowane do poziomu rozwoju 3-10 latków</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>🎯 Konkretne techniki</h3>
+                        <ul class="benefits-list">
+                            <li>Ćwiczenia oddechowe wplatane w fabułę</li>
+                            <li>Techniki wizualizacji i relaksacji</li>
+                            <li>Strategie komunikacji swoich potrzeb</li>
+                            <li>Metody opanowania pierwszego impulsu</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>💝 Korzyści dla rodziny</h3>
+                        <ul class="benefits-list">
+                            <li>Mniej konfliktów i napięć w domu</li>
+                            <li>Lepsze relacje z rodzeństwem i rówieśnikami</li>
+                            <li>Spokojniejsze wieczory i pora snu</li>
+                            <li>Wspólny język do rozmów o emocjach</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section>
+            <div class="container">
+                <h2>Co mówią rodzice?</h2>
+                <div class="testimonials">
+                    <div class="testimonial animate-fade-in">
+                        <p class="testimonial-text">Po dwóch tygodniach słuchania bajek mój syn zaczął używać technik oddechowych, które poznał od Syrenki Zuzy. To niesamowite, jak bajki zmieniły nasze codzienne konflikty!</p>
+                        <p class="testimonial-author">— Anna, mama 6-letniego Kubę</p>
+                    </div>
+                    <div class="testimonial animate-fade-in">
+                        <p class="testimonial-text">Moja córka często powtarza: "Mamo, użyję magicznego hamulca!" zanim zareaguje impulsywnie. Te bajki naprawdę działają i dają dziecku konkretne narzędzia.</p>
+                        <p class="testimonial-author">— Marcin, tata 5-letniej Zosi</p>
+                    </div>
+                    <div class="testimonial animate-fade-in">
+                        <p class="testimonial-text">Jako rodzice czujemy się bardziej pewni w rozmowach o emocjach. Bajki dały nam wspólny język i sprawdzone sposoby na uspokojenie sytuacji.</p>
+                        <p class="testimonial-author">— Katarzyna, mama bliźniąt 4-letnich</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <div class="container">
+                <h2>Zacznij już dziś pomagać dziecku opanować złość</h2>
+                <p>Seria "Radzenie sobie ze złością" to 10 terapeutycznych audiobajek o łącznym czasie trwania ponad 3 godzin. Natychmiastowy dostęp po zakupie.</p>
+                <div class="price-highlight">99 PLN</div>
+                <p style="margin-bottom: 2rem;">✓ 10 profesjonalnych audiobajek<br>✓ Natychmiastowy dostęp<br>✓ Techniki oparte na psychologii<br>✓ Skuteczne narzędzia dla dziecka</p>
+                <a href="https://godzinadlasiebie.pl/sklep/bajki-terapeutyczne/bajki-terapeutyczne-radzenie-sobie-ze-zloscia/" class="btn btn-primary" style="background: white; color: var(--ot-deep-purple); font-size: 1.2rem; padding: 1.2rem 2.5rem;" target="_blank" rel="noopener noreferrer">
+                    Kup serię już teraz
+                </a>
+                <p style="margin-top: 1rem; opacity: 0.9; font-size: 0.9rem;">Bezpieczna płatność • Natychmiastowy dostęp • 30 dni gwarancji</p>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <section>
+            <div class="container">
+                <h2>Najczęściej zadawane pytania</h2>
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Dla jakiego wieku są przeznaczone te bajki?
+                            <span>+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Seria "Radzenie sobie ze złością" jest przeznaczona dla dzieci w wieku 3-10 lat. Młodsze dzieci (3-6 lat) najlepiej słuchają bajek z rodzicem, podczas gdy starsze (7-10 lat) mogą korzystać z nich samodzielnie. Treści są dostosowane do poziomu rozwoju emocjonalnego w tym przedziale wiekowym.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Kiedy zobaczę efekty u mojego dziecka?
+                            <span>+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Wiele dzieci zaczyna stosować poznane techniki już po kilku słuchaniach. Trwałe zmiany w reagowaniu na złość zazwyczaj widać po 2-4 tygodniach regularnego słuchania. Kluczowa jest regularność i wspólne omawianie bajek z dzieckiem.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Czy bajki zastąpią terapię z psychologiem?
+                            <span>+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Audiobajki to doskonałe narzędzie wsparcia, ale nie zastępują profesjonalnej terapii w przypadku poważnych problemów behawioralnych. W trudnych sytuacjach zalecamy konsultację z psychologiem dziecięcym, który może wykorzystać bajki jako element terapii.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Jak często dziecko powinno słuchać bajek?
+                            <span>+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Zalecamy słuchanie 1-2 bajek dziennie, najlepiej w spokojnych momentach. Idealne są wieczory przed snem lub chwile wyciszenia po trudnym dniu. Ważne jest, aby nie przeciążać dziecka - regularność jest ważniejsza od ilości.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            W jakim formacie otrzymam bajki?
+                            <span>+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Po zakupie otrzymasz natychmiastowy dostęp do wszystkich 10 audiobajek w formacie MP3 do pobrania. Możesz słuchać ich na dowolnym urządzeniu - telefonie, tablecie, komputerze czy odtwarzaczu audio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Series -->
+        <section class="bg-secondary">
+            <div class="container">
+                <h2>Poznaj też inne serie Open Tales</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Radzenie sobie ze złością vol. 2</h3>
+                        <p>11 nowych bajek kontynuujących naukę kontroli gniewu i rozwiązywania konfliktów.</p>
+                        <a href="https://godzinadlasiebie.pl/sklep/bajki-terapeutyczne/radzenie-sobie-ze-zloscia-vol-2/" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Poznaj serię</a>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Jak opanować nerwy?</h3>
+                        <p>Bajki dla nerwowych, impulsywnych dzieci, które potrzebują wsparcia w radzeniu sobie z silnymi uczuciami.</p>
+                        <a href="https://godzinadlasiebie.pl/sklep/bajki-terapeutyczne/opanowanie-audiobajki-terapeutyczne/" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Poznaj serię</a>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Spokojne zasypianie</h3>
+                        <p>5 terapeutycznych bajek pomagających dzieciom wyciszyć się i spokojnie zasnąć.</p>
+                        <a href="/spokojne-zasypianie/" class="btn btn-secondary">Poznaj serię</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Open Tales. Wszystkie prawa zastrzeżone.</p>
+            <p>Terapeutyczne audiobajki tworzone z myślą o dzieciach i rodzicach w Polsce.</p>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const faqItem = button.parentElement;
+                const isActive = faqItem.classList.contains('active');
+                
+                // Close all FAQ items
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                    item.querySelector('.faq-question span').textContent = '+';
+                });
+                
+                // Open clicked item if it wasn't active
+                if (!isActive) {
+                    faqItem.classList.add('active');
+                    button.querySelector('span').textContent = '−';
+                }
+            });
+        });
+
+        // Animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Mobile menu toggle (basic implementation)
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+        });
+    </script>
+</body>
+</html>
