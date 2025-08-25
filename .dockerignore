@@ -1,0 +1,7 @@
+*
+!opentales
+!landingpages
+!Dockerfile
+!nginx.conf
+**/package-lock.json
+**/package.json
