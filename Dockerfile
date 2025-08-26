@@ -20,7 +20,6 @@ COPY landingpages/ /opentales/ /usr/share/nginx/html/
 COPY nginx.conf /etc/nginx/nginx.conf
 
 RUN chmod -R o+r /usr/share/nginx/html
-RUN chmod -R o+r /usr/share/nginx/landingpages
 
 # Expose port 80
 EXPOSE 80
