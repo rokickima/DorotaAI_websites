@@ -17,6 +17,7 @@ Allow: /
 # General crawlers - Allowed
 User-agent: *
 Allow: /
+Disallow: /pl/zlosc/radzenie-sobie-ze-zloscia-promo/card-success.html
 Crawl-delay: 1
 
 # Sitemap
