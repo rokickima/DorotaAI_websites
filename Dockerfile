@@ -14,7 +14,7 @@ RUN rm -rf /usr/share/nginx/html/*
 COPY opentales/ /usr/share/nginx/html/
 
 # Copy landingpages to a separate directory for subdomain routing
-COPY landingpages/ /usr/share/nginx/landingpages/
+COPY landingpages/ /opentales/ /usr/share/nginx/html/
 
 # Copy custom nginx configuration
 COPY nginx.conf /etc/nginx/nginx.conf
