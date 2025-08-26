@@ -68,11 +68,7 @@ function setupEventListeners() {
         item.addEventListener('mouseleave', handleFeatureLeave);
     });
     
-    // Promo badge click
-    const promoBadge = document.querySelector('.hero__promo-badge');
-    if (promoBadge) {
-        promoBadge.addEventListener('click', handlePromoBadgeClick);
-    }
+    // Promo badge click - now handled in setupUTMTracking() for consistent behavior
 }
 
 /**
@@ -470,4 +466,15 @@ function setupUTMTracking() {
         const urlWithUTM = appendUTMParams(targetUrl);
         window.location.href = urlWithUTM;
     });
+    
+    // Also make promo badge clickable with same functionality
+    const promoBadge = document.getElementById('promo-badge');
+    if (promoBadge) {
+        promoBadge.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetUrl = 'https://buy.stripe.com/9B628k9Yq1Lddih4d67ss00?locale=pl';
+            const urlWithUTM = appendUTMParams(targetUrl);
+            window.location.href = urlWithUTM;
+        });
+    }
 }
