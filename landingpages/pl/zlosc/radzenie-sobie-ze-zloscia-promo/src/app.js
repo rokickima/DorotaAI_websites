@@ -477,4 +477,37 @@ function setupUTMTracking() {
             window.location.href = urlWithUTM;
         });
     }
+    
+    // Add the same functionality for the second CTA button
+    const button2 = document.getElementById("cta-button_2");
+    if (button2) { 
+        button2.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetUrl = 'https://buy.stripe.com/9B628k9Yq1Lddih4d67ss00?locale=pl';
+            const urlWithUTM = appendUTMParams(targetUrl);
+            window.location.href = urlWithUTM;
+        });
+    }
+    
+    // Add the same functionality for the third CTA button
+    const button3 = document.getElementById("cta-button_3");
+    if (button3) {
+        button3.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetUrl = 'https://buy.stripe.com/9B628k9Yq1Lddih4d67ss00?locale=pl';
+            const urlWithUTM = appendUTMParams(targetUrl);
+            window.location.href = urlWithUTM;
+        });
+    }
+    
+    // Add the same functionality for the fourth CTA button
+    const button4 = document.getElementById("cta-button_4");
+    if (button4) {
+        button4.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetUrl = 'https://buy.stripe.com/9B628k9Yq1Lddih4d67ss00?locale=pl';
+            const urlWithUTM = appendUTMParams(targetUrl);
+            window.location.href = urlWithUTM;
+        });
+    }
 }
