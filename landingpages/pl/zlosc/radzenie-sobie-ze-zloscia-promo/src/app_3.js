@@ -432,13 +432,13 @@ function setupUTMTracking() {
             }
         }
 
-        const _fbc = getCookieValue('_fbc');
-        if (_fbc) {
-            urlObj.searchParams.set('client_reference_id', value);
+        const fbc_cookie = getCookieValue('_fbc');
+        if (fbc_cookie) {
+            urlObj.searchParams.set('client_reference_id', fbc_cookie);
         } else {
-            const fbclid = params.get('fbclid')
-            if (fbclid) {
-                urlObj.searchParams.set('client_reference_id', 'fb.1.' + (Date.now()) + '.' + fbclid);
+            const fbc_param = params.get('fbclid')
+            if (fbc_param) {
+                urlObj.searchParams.set('client_reference_id', 'fb.1.' + (Date.now()) + '.' + fbc_param);
             }
         }
 
