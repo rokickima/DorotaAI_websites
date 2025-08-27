@@ -415,6 +415,12 @@ preloadResources();
 // UTM Parameter Tracking for CTA Button
 function setupUTMTracking() {
 
+    function getCookieValue(name) {
+        return new Map(
+            document.cookie.split('; ').map(c => c.split('='))
+        ).get(name) || null;
+    }
+
     // Function to append UTM params to a given URL
     function appendUTMParams(url) {
 
@@ -424,8 +430,15 @@ function setupUTMTracking() {
             if (key.startsWith("utm_")) {
                 urlObj.searchParams.set(key, value);
             }
-            if (key === 'fbclid') {
-                urlObj.searchParams.set('client_reference_id', value);
+        }
+
+        const _fbc = getCookieValue('_fbc');
+        if (_fbc) {
+            urlObj.searchParams.set('client_reference_id', value);
+        } else {
+            const fbclid = params.get('fbclid')
+            if (fbclid) {
+                urlObj.searchParams.set('client_reference_id', 'fb.1.' + (Date.now()) + '.' + fbclid);
             }
         }
 
