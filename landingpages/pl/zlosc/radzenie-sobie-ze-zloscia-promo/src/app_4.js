@@ -436,8 +436,8 @@ function setupUTMTracking() {
     // Function to append UTM params to a given URL
     function handleCTAClick(e) {
         e.preventDefault();
-        const targetUrl = 'https://buy.stripe.com/9B628k9Yq1Lddih4d67ss00?locale=pl';
-        window.location.href = appendUTMParams(targetUrl);
+        const targetUrl = 'https://buy.stripe.com/9B628k9Yq1Lddih4d67ss00?prefilled_promo_code=BACKTOSCHOOL50&locale=pl';
+        window.location.href = appendUTMParams(targetUrl); 
     }
 
     // Add click handler to redirect with UTM params
