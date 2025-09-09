@@ -47,6 +47,14 @@
             'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '1256766508725356');
         fbq('track', 'PageView');
+        fbq('track', 'ViewContent', {
+  content_ids: ['prod_Svo8wOUOJqJfdO'],   // <-- your SKU(s)
+  content_type: 'product',
+  value: 49.00,                             // <-- your price
+  currency: 'PLN',
+  content_name: 'Audiobajki: Radzenie sobie ze złością',
+  
+});
     </script>
     <noscript>
         <img height="1" width="1" style="display:none"
