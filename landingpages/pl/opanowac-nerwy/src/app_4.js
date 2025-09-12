@@ -412,102 +412,61 @@ function preloadResources() {
 // Initialize preloading
 preloadResources();
 
-// Export functions for potential external use
-window.Storytel = {
-    showNotification,
-    handleCTAClick,
-    
-};
 // UTM Parameter Tracking for CTA Button
 function setupUTMTracking() {
-    const button = document.getElementById("cta-button");
-    if (!button) return;
-
-    // Function to get query parameters from current URL
-    function getQueryParams() {
-        return new URLSearchParams(window.location.search);
-    }
 
     // Function to append UTM params to a given URL
     function appendUTMParams(url) {
-        const params = getQueryParams();
-        const utmParams = new URLSearchParams();
 
-        // Only copy UTM params
+        const urlObj = new URL(url)
+        const params = new URLSearchParams(window.location.search);
         for (const [key, value] of params.entries()) {
             if (key.startsWith("utm_")) {
-                utmParams.set(key, value);
-            }
-        }
-
-        if (utmParams.toString()) {
-            const urlObj = new URL(url);
-            // Merge existing params with utm
-            for (const [key, value] of utmParams.entries()) {
                 urlObj.searchParams.set(key, value);
             }
-            
-            // Special handling for fbclid - pass it as utm_term
-            const fbclid = params.get("fbclid");
-            if (fbclid) {
-                urlObj.searchParams.set("utm_term", fbclid);
+
+            if (key === 'fbclid') {
+                urlObj.searchParams.set('client_reference_id', value);
             }
-            
-            return urlObj.toString();
         }
 
-        return url;
+        return urlObj.toString();
+    }
+
+    // Function to append UTM params to a given URL
+    function handleCTAClick(e) {
+        e.preventDefault();
+        const targetUrl = 'https://buy.stripe.com/aFa6oAfiKfC36TTbFy7ss08?locale=pl';
+        window.location.href = appendUTMParams(targetUrl); 
     }
 
     // Add click handler to redirect with UTM params
-    button.addEventListener('click', function(e) {
-        e.preventDefault();
-        const targetUrl = 'https://buy.stripe.com/9B628k9Yq1Lddih4d67ss00?prefilled_promo_code=BACKTOSCHOOL50&locale=pl';
-        const urlWithUTM = appendUTMParams(targetUrl);
-        window.location.href = urlWithUTM;
-    });
-    
+    const button = document.getElementById("cta-button");
+    if (button) {
+        button.addEventListener('click', handleCTAClick);
+    }
+
     // Also make promo badge clickable with same functionality
     const promoBadge = document.getElementById('promo-badge');
     if (promoBadge) {
-        promoBadge.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetUrl = 'https://buy.stripe.com/9B628k9Yq1Lddih4d67ss00?prefilled_promo_code=BACKTOSCHOOL50&locale=pl';
-            const urlWithUTM = appendUTMParams(targetUrl);
-            window.location.href = urlWithUTM;
-        });
+        promoBadge.addEventListener('click', handleCTAClick);
     }
     
     // Add the same functionality for the second CTA button
     const button2 = document.getElementById("cta-button_2");
     if (button2) { 
-        button2.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetUrl = 'https://buy.stripe.com/9B628k9Yq1Lddih4d67ss00?prefilled_promo_code=BACKTOSCHOOL50&locale=pl';
-            const urlWithUTM = appendUTMParams(targetUrl);
-            window.location.href = urlWithUTM;
-        });
+        button2.addEventListener('click', handleCTAClick);
     }
     
     // Add the same functionality for the third CTA button
     const button3 = document.getElementById("cta-button_3");
     if (button3) {
-        button3.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetUrl = 'https://buy.stripe.com/9B628k9Yq1Lddih4d67ss00?prefilled_promo_code=BACKTOSCHOOL50&locale=pl';
-            const urlWithUTM = appendUTMParams(targetUrl);
-            window.location.href = urlWithUTM;
-        });
+        button3.addEventListener('click', handleCTAClick);
     }
     
     // Add the same functionality for the fourth CTA button
     const button4 = document.getElementById("cta-button_4");
     if (button4) {
-        button4.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetUrl = 'https://buy.stripe.com/9B628k9Yq1Lddih4d67ss00?prefilled_promo_code=BACKTOSCHOOL50&locale=pl';
-            const urlWithUTM = appendUTMParams(targetUrl);
-            window.location.href = urlWithUTM;
-        });
+        button4.addEventListener('click', handleCTAClick);
     }
 }
