@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Strona błędu - Open Tales">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="author" content="Open Tales">
+    <meta name="language" content="Polish">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Błąd - Open Tales">
+    <meta property="og:description" content="Ups, może trochę przeskoczyliśmy. Wróć do naszych pięknych audiobajek.">
+    <meta property="og:image" content="https://opentales.ai/images/og-image.png">
+    <meta property="og:url" content="https://opentales.ai/error">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Open Tales">
+    <meta property="og:locale" content="pl_PL">
+
+    <title>Ups, może trochę przeskoczyliśmy - Open Tales</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" as="style">
+    <link rel="preload" href="styles.css" as="style">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        /* Error-specific styles */
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .error-main {
+            width: 100%;
+            padding: 40px 1rem;
+            text-align: center;
+        }
+
+        .error-container {
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .error-code {
+            font-size: clamp(3rem, 12vw, 6rem);
+            font-weight: 800;
+            color: var(--ot-magenta);
+            line-height: 0.9;
+            margin-bottom: 32px;
+            text-shadow: 2px 2px 4px rgba(214, 0, 102, 0.1);
+        }
+
+        .error-title {
+            font-size: clamp(1.75rem, 5vw, 2.5rem);
+            font-weight: 700;
+            color: var(--ot-deep-purple);
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .error-subtitle {
+            font-size: clamp(1.1rem, 3vw, 1.3rem);
+            font-weight: 500;
+            color: #666;
+            margin-bottom: 24px;
+            line-height: 1.4;
+        }
+
+        .error-description {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 40px;
+            line-height: 1.6;
+            max-width: 520px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .error-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            align-items: center;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .error-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 16px 32px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 16px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            min-height: 52px;
+        }
+
+        /* Responsive */
+        @media (min-width: 640px) {
+            .error-buttons {
+                max-width: 280px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Gradient Elements -->
+    <div class="bg-gradient">
+        <div class="bg-blob-1"></div>
+        <div class="bg-blob-2"></div>
+        <div class="bg-blob-3"></div>
+        <div class="bg-dot-1"></div>
+        <div class="bg-dot-2"></div>
+        <div class="bg-dot-3"></div>
+    </div>
+    
+    <main id="main-content">
+        <section class="error-main">
+            <div class="container">
+                <div class="error-container">
+                    <div class="error-code">Ups!</div>
+
+                    <h1 class="error-title">
+                        Może trochę przeskoczyliśmy
+                    </h1>
+
+                    <p class="error-subtitle">
+                        Czasami nasza strona może robić niespodzianki, porozmawiamy z nią o tym.
+                    </p>
+
+                    <p class="error-description">
+                         Spróbuj wróć do strony głównej, gdzie czekają na Ciebie najpiękniejsze bajki.
+                    </p>
+
+                    <div class="error-buttons">
+                        <a href="javascript:history.back()" class="error-btn btn-secondary">
+                            Wróć
+                        </a>
+                        <a href="/" class="error-btn btn-primary">
+                            Strona główna
+                        </a>
+                        <a href="mailto:hello@opentales.ai" class="error-btn btn-secondary">
+                            Napisz do nas
+                        </a>
+                        <a href="https://link.opentales.ai/support-portal" class="error-btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                            Centrum pomocy
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+</body>
+</html>
