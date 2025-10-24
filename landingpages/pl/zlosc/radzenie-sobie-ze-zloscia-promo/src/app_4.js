@@ -41,6 +41,19 @@ function initializeApp() {
 }
 
 /**
+ * Scroll to video section smoothly
+ */
+function scrollToVideo() {
+    const videoSection = document.getElementById('video-section');
+    if (videoSection) {
+        videoSection.scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }
+}
+
+/**
  * Setup all event listeners
  */
 function setupEventListeners() {

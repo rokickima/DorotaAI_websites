@@ -118,7 +118,7 @@
                 <div class="order-first bg-[#d60066] text-white px-5 py-3 rounded-l-lg shadow-lg w-fit mb-4 md:mb-0 ml-auto">
                     <button id="promo-badge" class="cursor-pointer hover:scale-105 transition-transform duration-200">
                         <p class="text-sm sm:text-base font-bold">Promocja!</p>
-                        <p class="text-xl sm:text-2xl font-extrabold mt-1">Teraz 50% taniej 🎧</p>
+                        <p class="text-xl sm:text-2xl font-extrabold mt-1">Teraz 50% taniej</p>
                     </button>
                 </div>
                 <!-- Left Content -->
@@ -150,7 +150,7 @@
 
                     <button id="cta-button"
                             class="bg-white text-[#133435] text-lg font-bold px-8 py-4 rounded-full cursor-pointer transition-all duration-250 shadow-lg hover:-translate-y-0.5 hover:shadow-2xl active:translate-y-0 ml-4 md:ml-8">
-                        Kup teraz 50% taniej
+                        Kup dostęp za 49 zł (-50%)
                     </button>
                 </div>
 
@@ -160,6 +160,30 @@
     </div>
 </section>
 
+<!-- Social Proof Section -->
+<section class="social-proof-section">
+    <div class="social-proof-container">
+        <div class="social-proof-content">
+                       
+            <div class="social-proof-stats">
+                <div class="social-proof-stat">
+                    <div class="social-proof-number">130k+</div>
+                    <div class="social-proof-label">Obserwujących na Instagram</div>
+                </div>
+                <div class="social-proof-divider"></div>
+                <div class="social-proof-stat">
+                    <div class="social-proof-number">15+</div>
+                    <div class="social-proof-label">Lat doświadczenia w psychoterapii rodzinnej</div>
+                </div>
+                <div class="social-proof-divider"></div>
+                <div class="social-proof-stat">
+                    <div class="social-proof-number">10.000+</div>
+                    <div class="social-proof-label">Zadowolonych rodzin</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- Features Section -->
 <section class="py-8 bg-[#fcfcfd]">
@@ -235,6 +259,13 @@
                     </h4>
                     <p class="text-[#627071] text-sm mb-3 leading-relaxed">Kajtek, mały smok, często wpada w złość, co odstrasza jego przyjaciół. Dzieki mądrym
                         starym księgom uczy się panować nad ogniem złości.</p>
+                    
+                    <button class="story-play-btn" onclick="scrollToVideo()">
+                        <span>Posłuchaj bajki</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="play-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
+                        </svg>
+                    </button>
 
                 </div>
 
@@ -557,6 +588,36 @@
 
     </div>
 </section> <!-- Custom CSS for fonts and scrollbar styling -->
+
+<!-- YouTube Video Section -->
+<section id="video-section" class="video-showcase-section">
+    <div class="video-container">
+        <div class="video-header">
+            <h2 class="mb-4 text-3xl font-bold sm:text-4xl">
+                Posłuchaj bajki, która pomaga dziecku wyciszyć się
+            </h2>
+            <p class="video-description">
+                Kajtek, mały smok, odkrywa, że nad ogniem złości można zapanować...
+            </p>
+        </div>
+        
+        <div class="video-wrapper">
+            <div class="video-frame">
+                <iframe 
+                    class="video-iframe"
+                    src="https://www.youtube-nocookie.com/embed/--ILHKZVw_I" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+                <div class="video-overlay"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Testimonials -->
 <section class="bg-[#fcfcf9]">
     <div class="py-16 bg-gray-50">
