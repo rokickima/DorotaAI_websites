@@ -593,33 +593,30 @@
         </div>
 
     </div>
-</section> <!-- Custom CSS for fonts and scrollbar styling -->
+</section>
 
 <!-- YouTube Video Section -->
-<section id="video-section" class="video-showcase-section">
-    <div class="video-container">
-        <div class="video-header">
-            <h2 class="mb-4 text-3xl font-bold sm:text-4xl">
+<section id="video-section" class="py-16 bg-white dark:bg-gray-900">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-10">
+            <h2 class="mb-4 text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">
                 Posłuchaj bajki, która pomaga dziecku wyciszyć się
             </h2>
-            <p class="video-description">
+            <p class="text-lg text-gray-600 dark:text-gray-300">
                 Kajtek, mały smok, odkrywa, że nad ogniem złości można zapanować...
             </p>
         </div>
         
-        <div class="video-wrapper">
-            <div class="video-frame">
-                <iframe 
-                    class="video-iframe"
-                    src="https://www.youtube-nocookie.com/embed/--ILHKZVw_I" 
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    referrerpolicy="strict-origin-when-cross-origin" 
-                    allowfullscreen>
-                </iframe>
-                <div class="video-overlay"></div>
-            </div>
+        <div class="relative w-full" style="padding-bottom: 56.25%;">
+            <iframe 
+                class="absolute top-0 left-0 w-full h-full rounded-lg shadow-2xl"
+                src="https://www.youtube-nocookie.com/embed/--ILHKZVw_I" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
         </div>
     </div>
 </section>
